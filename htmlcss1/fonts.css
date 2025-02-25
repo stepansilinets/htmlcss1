@@ -1,0 +1,20 @@
+@font-face {
+    font-family: SansB;
+    src: url(fonts/DMSans-Bold.ttf);
+}
+@font-face {
+    font-family: SansEB;
+    src: url(fonts/DMSans-ExtraBold.ttf);
+}
+@font-face {
+    font-family: SansL;
+    src: url(fonts/DMSans-Light.ttf);
+}
+@font-face {
+    font-family: SansM;
+    src: url(fonts/DMSans-Medium.ttf);
+}
+@font-face {
+    font-family: SansT;
+    src: url(fonts/DMSans-Thin.ttf);
+}

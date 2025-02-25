@@ -1,0 +1,20 @@
+/* FOOTER */
+.footer {
+    display: flex;
+    margin-top: 150px;
+    margin-left: 130px;
+    justify-content: space-between;
+}
+.left__footer {
+    margin-bottom: 20px; 
+}
+.center__footer {
+    font-family: SansM;
+    font-size: 18px;
+    color: white;
+    opacity: 0.8;
+    margin-bottom: 100px;
+}
+.footer__link {
+    margin-top: 10px;
+}

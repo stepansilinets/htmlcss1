@@ -1,0 +1,258 @@
+/* LATEST EPISODES */
+.main__title {
+    color: white;
+    font-family: SansM;
+    font-size: 64px;
+}
+
+.main__button {
+    border: none;
+    background-color:#118DA8;
+    padding: 12px 20px;
+    font-size: 17px;
+    font-family: SansM;
+    color: white;
+    border-radius: 5px;
+    width: 220px;
+}
+.main__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px;
+    margin-top: 60px;
+    
+}
+.main__content__first,
+.main__content__second,
+.main__content__third {
+    width: 1300px;
+    height: 450px;
+    background-color: black;
+    border-radius: 32px;
+    display: flex;
+    align-items: flex-start;
+    margin-left: 120px;
+    margin-top: 60px;
+}
+
+.main__content__first-image {
+    width: 389px;
+    height: 465px;
+    margin-right: 20px;
+}
+
+.main__content__first-text {
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column; 
+    width: calc(100% - 220px); 
+}
+
+.main__content__first-text-content { 
+    display: flex;
+    flex-direction: column; 
+    width: 100%; 
+}
+
+.main__content__first span {
+    margin-bottom: 10px;
+    display: block; 
+}
+
+.main__content__first-category {
+    width: 80px;
+    height: 25px;
+    text-align: center;
+    font-family: SansM;
+    border-radius: 10px;
+    font-size: 18px;
+    color: white;
+    background-color: #191919;
+}
+
+.main__content__first-episode {
+    color: #118DA8;
+    font-family: SansM;
+    font-size: 17px;
+    margin-top: 40px;
+    
+}
+
+.main__content__first-title {
+    font-family: SansM;
+    color: white;
+    font-size: 64px;
+    margin-top: 20px;
+    width: 700px;
+}
+.main__content__first-description {
+    color: white;
+    font-family: SansM;
+    font-size: 22px;
+    opacity: 0.7;
+    margin-top: 20px;
+    width: 770px;
+}
+
+.main__content__second-category {
+    width: 150px;
+    height: 25px;
+    text-align: center;
+    font-family: SansM;
+    border-radius: 10px;
+    font-size: 18px;
+    color: white;
+    background-color: #191919;
+}
+
+.main__content__second-description, 
+.main__content__third-description {
+    color: white;
+    font-family: SansM;
+    font-size: 22px;
+    opacity: 0.7;
+    margin-top: 20px;
+    width: 770px;
+    margin-bottom: 63px;
+}
+
+
+
+/* JACOB PAULANER */
+
+
+.second__main__content {
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.left__content {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    
+    margin-top: 180px;
+}
+.left__link {
+    color: #118DA8;
+    font-size: 18px;
+    font-family: SansM;
+    margin-top: 20px;
+}
+.left__title {
+    margin-top: 25px;
+    color: white;
+    font-family: SansM;
+    font-size: 65px;
+}
+
+.left__subtitle {
+    color: white;
+    opacity: 0.7;
+    margin-top: 28px;
+    font-family: SansM;
+    font-size: 22px;
+    width: 550px;
+}
+.right__content {
+    width: 650px;
+    height: 743px;
+    margin-left: 50px;
+}
+
+/* SUBSCRIBE FOR UPDATES */
+
+.main__form {
+    display: flex;
+    align-items: center;
+    margin-top: 200px;
+    margin-left: 150px;
+    background-color: black;
+    width: 1300px;
+    height: 387px;
+    border-radius: 32px;
+}
+.left__form {
+    margin-left: 60px;
+}
+.form__subtitle {
+    color: #118DA8;
+    font-family: SansM;
+    font-size: 18px;
+}
+.form__title {
+    color: white;
+    font-family: SansM;
+    font-size: 72px;
+    width: 201px;
+}
+.right__form {
+    margin-left: 230px;
+}
+
+.form {
+    width: 522px;
+    height: 82px;
+    margin-top: 20px;
+    background-color: #191919;
+    font-family: SansL;
+    font-size: 24px;
+    border-radius: 5px;
+    border: 1px solid #191919;
+}
+input[type="text"],
+input[type="email"] {
+  color: white; /* Цвет текста для пользователя */
+}
+.button__form {
+    color: white;
+    background-color: #118DA8;
+    margin-top: 20px;
+    font-family: SansM;
+    font-size: 15px;
+    width: 100px;
+    height: 50px;
+    border: 1px solid #118DA8;
+    border-radius: 5px;
+}
+
+/* reviews */
+.first__reviews {
+    margin-top: 100px;
+    margin-left: 130px;
+    display: flex;
+
+}
+.main__reviews {
+    width: 323px;
+    height: 281px;
+    background-color: black;
+    border-radius: 20px;
+    margin-left: 20px;
+    padding: 50px 50px;
+}
+.reviews__title {
+    color: white;
+    font-family: SansM;
+    font-size: 36px;
+    display: flex;
+    margin-top: 21px;
+}
+.reviews__subtitle {
+    color: white;
+    opacity: 0.7;
+    font-family: SansM;
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.second__reviews {
+    margin-top: 20px;
+    margin-left: 130px;
+    display: flex;
+}
+
+/* FOOTER */
